@@ -5,13 +5,13 @@
 class Annotr < Formula
   desc "annotr - Fast local code commenting CLI"
   homepage "https://github.com/cloudboy-jh/annotr"
-  version "0.2.8"
+  version "0.2.9"
   license "MIT"
   depends_on :linux
 
   if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-    url "https://github.com/cloudboy-jh/annotr/releases/download/v0.2.8/annotr_0.2.8_linux_amd64.tar.gz"
-    sha256 "272d7bf318ed4c0d7aef2cb941ee1ce170151c70109018d566b75339b9527f8f"
+    url "https://github.com/cloudboy-jh/annotr/releases/download/v0.2.9/annotr_0.2.9_linux_amd64.tar.gz"
+    sha256 "dd6748dda31d5d785d8ca8f0103ab6700165be2ace1d7417572d031f37a5c2c1"
     def install
       bin.install "annotr"
     end
