@@ -5,21 +5,21 @@
 class Annotr < Formula
   desc "annotr - Fast local code commenting CLI"
   homepage "https://github.com/cloudboy-jh/annotr"
-  version "0.2.18"
+  version "0.2.23"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/cloudboy-jh/annotr/releases/download/v0.2.18/annotr_0.2.18_darwin_amd64.tar.gz"
-    sha256 "d533ca9cafa8d9d218fee4e8164d38d853eddfeda0e5a359f5eacd9982d5da81"
+    url "https://github.com/cloudboy-jh/annotr/releases/download/v0.2.23/annotr_0.2.23_darwin_amd64.tar.gz"
+    sha256 "fb0396d7594da9f517fb6b35d250405515a2cec07cf379cdde435d8d9fac0749"
 
     def install
       bin.install "annotr"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/cloudboy-jh/annotr/releases/download/v0.2.18/annotr_0.2.18_darwin_arm64.tar.gz"
-    sha256 "c4f9a60b0bf5ce19b42b7019ca7b1d1af0bc7af5577f9976e5883d1e9ef5c773"
+    url "https://github.com/cloudboy-jh/annotr/releases/download/v0.2.23/annotr_0.2.23_darwin_arm64.tar.gz"
+    sha256 "8d8873019f614623ffed3f4da2ec392581df101f2c741ea19aafd2a3e88663e7"
 
     def install
       bin.install "annotr"
